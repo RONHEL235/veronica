@@ -7,6 +7,9 @@ export default function App() {
       <div className="fixed top-6 right-6 z-50">
         <ThemeToggle />
       </div>
+      <div className="p-4 bg-white dark:bg-black text-black dark:text-white">
+  DARK MODE WORKS
+</div>
 
       <FolderIcon label="music" x="20%" y="30%" />
       <FolderIcon label="store" x="50%" y="20%" />
