@@ -5,6 +5,7 @@ import { useTheme } from "../hooks/useTheme";
 export default function ThemeToggle() {
   const { theme, toggleTheme } = useTheme();
 
+  //I think this is where the problem starts 
   return (
     <button
       onClick={toggleTheme}
