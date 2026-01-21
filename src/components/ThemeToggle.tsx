@@ -7,6 +7,7 @@ export default function ThemeToggle() {
 
   //I think this is where the problem starts 
   return (
+    //Broken logic
     <button
       onClick={toggleTheme}
       aria-label="Toggle theme"
